@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+
+.slider_heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider_heading input{
+    display: flex;
+    align-self: center;
+    height: 30px;
+
+}
+
+.container_calculator{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator_sliders{
+    width: 600px;
+}
+
+.claculator_graph{
+    width: 300px;
+    margin-left: 20px;
+}
+
+.calculated_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* export const calculateEmi = ({ principal: p, roi: r, tenure: t }) => {
+    r = r / (12 * 100);
+    t = t * 12;
+    return (
+      Math.round((p * r * Math.pow(1 + r, t)) / (Math.pow(1 + r, t) - 1)) || "--"
+    );
+  }; */
+  
